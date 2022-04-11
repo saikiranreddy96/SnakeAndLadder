@@ -8,10 +8,13 @@ namespace SnakeAndLadder
 {
     internal class SnakeAndLadder
     {
-        public int startPosition = 0 ;
-        public void StartPosition()
+        public int startPosition = 0,DieRoll;
+        public void RollTheDie()
         {
             Console.WriteLine("Starting position of a player is : " + startPosition);
+            Random random = new Random();
+            DieRoll = random.Next(1, 7);
+            Console.WriteLine("Player gets the Die Number : " + DieRoll);
             Console.ReadLine();
         }
     }
