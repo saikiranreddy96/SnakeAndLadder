@@ -11,7 +11,7 @@ namespace SnakeAndLadder
         static void Main(string[] args)
         {
             SnakeAndLadder snakeAndLadder = new SnakeAndLadder();
-            snakeAndLadder.RollADie();
+            snakeAndLadder.StartPosition();
             
         }
     }
