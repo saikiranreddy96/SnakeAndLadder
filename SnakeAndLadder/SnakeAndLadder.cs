@@ -13,6 +13,7 @@ namespace SnakeAndLadder
         {
             Console.WriteLine("Game starts now");
             Console.WriteLine("Starting position of player is: " + start_Position);
+            Console.ReadLine();
         }
     }
 }
